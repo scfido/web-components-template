@@ -1,0 +1,6 @@
+.docz
+.cache
+public
+node_modules
+yarn-error.log
+styleguide
