@@ -33,8 +33,8 @@ yarn
 yarn doc
 ```
 
-成功后浏览<http://localhost:6060>查看组件运行效果和文档
+成功后浏览<http://localhost:6060>查看组件运行效果和说明文档
 
 ## 参考资料
 
-[React Styleguidist]<https://react-styleguidist.js.org>
+[React Styleguidist](https://react-styleguidist.js.org)

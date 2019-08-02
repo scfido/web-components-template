@@ -256,7 +256,7 @@ class MyForm extends React.PureComponent {
 
 let exportObject = Form.create({ name: 'flowForm' })(MyForm);
 
-exportObject.propTypes = {
+MyForm.propTypes = {
     /** 按钮尺寸，分大中小三种 */
     size: t.oneOf(['small', 'normal', 'big']),
 
@@ -267,7 +267,7 @@ exportObject.propTypes = {
     disabled: t.bool,
 }
 
-exportObject.defaultProps = {
+MyForm.defaultProps = {
     size: 'normal',
     color: 'bule',
     disabled: false,
