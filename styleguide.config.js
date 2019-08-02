@@ -39,7 +39,38 @@ module.exports = {
             ],
         },
     },
+    sections: [
+        {
+            name: '简介',
+            content: 'docs/introduction.md'
+        },
+        {
+            name: '文档',
+            sections: [
+                {
+                    name: '安装',
+                    content: 'docs/installation.md',
+                },
+                {
+                    name: '配置',
+                    content: 'docs/configuration.md'
+                },
+                {
+                    name: '在线演示',
+                    external: true,
+                    href: 'http://example.com'
+                }
+            ]
+        },
+        {
+            name: 'UI 组件',
+            components: 'src/components/**/[A-Z]*.jsx',
+            exampleMode: 'expand', // 'hide' | 'collapse' | 'expand'
+            usageMode: 'expand' // 'hide' | 'collapse' | 'expand'
+        }
+    ],
     configureServer(app) {
         app.use(getMockMiddleware(path.join(process.cwd(), '/')));
     },
+
 };
