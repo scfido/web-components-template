@@ -1,6 +1,3 @@
-/*
-样式文件的后缀必须是".module.css" 才会编译成模块化css，其它后缀编译成全局css，less 文件同理。
-*/
 
 .redButton{
     background-color: brown;

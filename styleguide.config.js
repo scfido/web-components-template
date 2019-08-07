@@ -23,6 +23,11 @@ module.exports = {
                     exclude: /node_modules/,
                     loader: 'style-loader!css-loader?modules',
                 },
+                {
+                    test: /\.less$/,
+                    exclude: /node_modules/,
+                    loader: 'style-loader!css-loader?modules!less-loader',
+                },
                 {//antd样式处理
                     test: /\.css$/,
                     exclude: /src/,
