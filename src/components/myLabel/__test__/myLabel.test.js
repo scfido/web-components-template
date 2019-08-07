@@ -1,7 +1,7 @@
 import React from 'react';
 import enzyme from 'enzyme';
 import { expect } from 'chai';
-import MyButton from '..';
+import MyLabel from '..';
 
 
 describe("<MyLabel />", () => {

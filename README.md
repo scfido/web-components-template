@@ -5,7 +5,7 @@
 
 - 集成Markdown文档展示控件和说明
 - mock http请求
-- 集成单元测试(未完成)
+- 集成单元测试
 
 ## 目录结构
 
@@ -34,6 +34,22 @@ yarn doc
 ```
 
 成功后浏览<http://localhost:6060>查看组件运行效果和说明文档
+
+### 单元测试
+
+执行`yarn test`时，会遍历组件的`__test__`目录，执行其中的`*.test.js`文件。
+
+### Mock
+
+组件需要访问服务端数据时，可以在`mock`目录下添加mock数据，设置方式参考<https://umijs.org/guide/mock-data.html>
+
+### 发布
+
+```sh
+yarn build
+```
+
+源代码将编译成es5格式输出到dist目录
 
 ## 参考资料
 

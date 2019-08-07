@@ -41,6 +41,25 @@ module.exports = {
                         }
                     ]
                 },
+                {//antd样式处理
+                    test: /\.less$/,
+                    exclude: /src/,
+                    use: [
+                        { loader: "style-loader", },
+                        {
+                            loader: "css-loader",
+                            options: {
+                                importLoaders: 1
+                            }
+                        },
+                        {
+                            loader: "less-loader",
+                            options: {
+                                javascriptEnabled: true
+                            }
+                        }
+                    ]
+                },
             ],
         },
     },

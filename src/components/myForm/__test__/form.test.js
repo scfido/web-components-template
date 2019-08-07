@@ -1,10 +1,10 @@
 import React from 'react';
 import enzyme from 'enzyme';
 import { expect } from 'chai';
-import Button from '../';
+import Form from '../';
 
 
-describe("<Button />", () => {
+describe("<Form />", () => {
     let wrapper = null;
 
     afterEach(() => {
@@ -13,7 +13,7 @@ describe("<Button />", () => {
     })
 
     it('Render correctly', () => {
-        wrapper = enzyme.mount(<Button />);
-        expect(wrapper.find("button")).to.have.lengthOf(1);
+        wrapper = enzyme.mount(<Form />);
+        expect(wrapper.find("form")).to.have.lengthOf(1);
     });
 });

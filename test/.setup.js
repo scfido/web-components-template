@@ -1,3 +1,4 @@
+require("ignore-styles");   //单元测试时忽略所有的样式文件
 require("@babel/polyfill");
 require("@babel/register")(require("../babel.config"));
 
