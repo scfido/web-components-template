@@ -1,5 +1,6 @@
 {
-  "version": "0.0.1-alpha",
+  "version": "0.0.1-beta",
+  "license":"MIT",
   "scripts": {
     "test": "mocha test/.setup.js src/**/__test__/*.test.js",
     "doc": "styleguidist server",
