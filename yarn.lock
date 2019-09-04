@@ -7523,7 +7523,7 @@ react-slick@~0.24.0:
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
 
-react-styleguidist@^9.1.13:
+react-styleguidist@^9.1.16:
   version "9.1.16"
   resolved "https://registry.npm.taobao.org/react-styleguidist/download/react-styleguidist-9.1.16.tgz#8d70cf02c4c631cb906946388ff7b4a26812054d"
   integrity sha1-jXDPAsTGMcuQaUY4j/e0omgSBU0=
